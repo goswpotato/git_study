@@ -81,6 +81,10 @@ and then merge to (local/remote) master branch
 about basic merge operation, see the 1st reference
 
 
+note : there seems to exist a bug for push branch to remote
+the error message is "could not read Username for 'https://github.com': No such file or directory"
+
+I solve this by open Git GUI, the push function there is fine
 
 
 
