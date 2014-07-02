@@ -1,0 +1,53 @@
+download and install git, it might not be difficult
+it 'might' be better to use Git bash(command line) instead of Git GUI, because I can't find some function in Git GUI
+but you may be possible to use Git GUI or other GUI tools for git better than me
+
+
+I assume you want to start a new project and cooperate with others
+(or you want to participate into a project that someone has built in Internet)
+
+Github
+
+1. go github to get an account, just regist and verify by e-mail. That won't cause any problems, I guess......
+2. if you want to start a new project......
+	get into your account and new a repository(also called "repo"). It's recommended to add a README initially.
+
+open Git bash
+
+1. setup for comfiguration(optional ????)
+	I don't know whether it matters if you don't set these configurations......
+	
+	$ git config --list
+		this command can see your configurations
+	$ git config user.name
+		this command can set your user name
+	$ git config user.email
+		this command can set your email
+
+
+the following would be working on
+D:\git_study (local)
+https://github.com/xxxx/git_study.git (remote, assume your user name on Github is xxxx)
+
+maybe the name can be diffrent
+
+2. clone the project 
+	$ cd /d
+		get into D drive
+	$ git clone https://github.com/xxxx/git_study.git
+		clone the project from remote host
+	if you get into the folder ($ cd /d/git_study), you'll see (master), it means you are on the master branch
+
+
+new file or edited
+	if you new or finish editing a file (assume is study.txt), you should stage it
+
+	$ git add study.txt
+		stage the study.txt in staging area
+	$ git add --all
+		stage the all files in staging area
+
+
+
+
+
