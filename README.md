@@ -1,4 +1,4 @@
 git_study
 =========
 
-learn how to use git
+learn how to use git & github
