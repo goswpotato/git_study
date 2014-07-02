@@ -39,13 +39,48 @@ maybe the name can be diffrent
 	if you get into the folder ($ cd /d/git_study), you'll see (master), it means you are on the master branch
 
 
+$ git status
+	you can know the status of files in your local project
+	
 new file or edited
 	if you new or finish editing a file (assume is study.txt), you should stage it
 
 	$ git add study.txt
 		stage the study.txt in staging area
-	$ git add --all
+	$ git add -A
 		stage the all files in staging area
+
+after stage, if you want to commit(equal to make a history??)
+	$ git commit
+		the command window would jump out an editor, you can use it as vim editor
+		enter the message for this commit, save it and exit (:wq)
+
+
+
+$ gitk --all
+	output the graph of branches, but it's just a graph???
+
+
+
+
+
+		
+you may do two operations with remote end most often
+"origin master" is the main branch in remote end, "origin" means remote, "master" is the name of branch?????
+	$ git push origin master
+		push the current local branch on remote end
+	$ git fetch orgin master
+		update the status of remote branch
+	$ git pull origin master
+		pull the remote branch into current local branch
+
+it's better not to directly push or pull, it may harm the branch you are using or the workable branch on remote end
+it's better to create($ git checkout......) a new (local/remote) branch, and (pull/push) to that branch
+and then merge to (local/remote) master branch
+
+about basic merge operation, see the 1st reference
+
+
 
 
 

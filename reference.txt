@@ -1,1 +1,3 @@
-http://littleb.tc/slides/2012/everyone/git.html#slide-23
+http://littleb.tc/slides/2012/everyone/git.html
+http://git-scm.com/book/zh-tw/%E9%96%8B%E5%A7%8B
+http://ihower.tw/blog/archives/3843 (about rebase & merge)
